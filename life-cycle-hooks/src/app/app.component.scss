@@ -1,0 +1,13 @@
+.menu {
+    &-list {
+        padding: 5px 10px;
+        text-decoration: none;
+        background: gray;
+        margin: 0 5px;
+        border-radius: 5px;
+        color: #fff;
+        &:hover, &:active, &:focus {
+            color: yellow;
+        }
+    }
+}
